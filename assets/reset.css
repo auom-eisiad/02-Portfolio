@@ -1,0 +1,15 @@
+:root {
+    --c: #5dc2c5;
+    --w: #ffffff;
+    --b: #ffffff;
+    --bg: #ffffff;
+    --ft1: #ffffff;
+    --ft2: #000000;
+}
+
+body {
+    margin:auto;
+    padding: auto;
+    width:auto;
+    
+}
