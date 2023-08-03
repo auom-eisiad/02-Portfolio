@@ -13,14 +13,15 @@
 <body>
     <!-- Opening to website -->
     <header id="home">
-        <h1>I am Daisie Moua.</h1>
         <h2>Hi there!</h2>
-        <p>A front-end web developer and web designer producing clean and 
-            efficient work for your needs.</p>
-        <img class="pf" src="./assets/images/pfpic.png" alt="daisie's profile picture" />
+        <h1>I am <span class="name">Daisie Moua</span>.</h1>
+        <!-- <p>A front-end & back-end web developer and web designer producing clean and 
+            efficient work for your needs.</p> -->
+            <p>
+                Magna fermentum iaculis eu non diam phasellus vestibulum lorem. 
+                Odio morbi quis commodo odio aenean sed adipiscing diam donec.
+            </p>
     </header>
-
-    
 
     <!-- navigation bar -->
     <nav>
@@ -88,6 +89,16 @@
                         <img src="./assets/images/comingsoon.png" alt="Project 4">
                     </a>
                 </li>
+                <li>
+                    <a href="#">
+                        <img src="./assets/images/comingsoon.png" alt="Project 4">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./assets/images/comingsoon.png" alt="Project 4">
+                    </a>
+                </li>
             </ul>
         </div>
     </section>
@@ -96,13 +107,16 @@
     <section id="contact">
         <div class="contact-info">
             <h4>CONTACT ME</h4>
-            <p><b>Email: </b>daisiemouaa@gmail.com</p>
+            <p><b>Email: </b>someone@email.com</p>
             <ul class="social">
                 <li>
                     Facebook
                 </li>
                 <li>
                     Instagram
+                </li>
+                <li>
+                    LinkIn
                 </li>
                 <li>
                     Github
@@ -113,7 +127,7 @@
 
     <!-- contact me -->
     <form>
-        <section>
+        <section class="message-me">
             <h3> GET IN TOUCH! </h3> 
             <p>
             Required fields are followed by 
@@ -140,12 +154,12 @@
                   <strong><span aria-label="required"> * </span></strong>
                 </label>
                 <br>
-                <textarea id="message_text" name="freeform" rows="10" cols="80">
-                    Enter text here...
+                <textarea name="freeform" rows="10" cols="80">
+Enter text here...
                 </textarea>
               </p>
         </section>
-        <secion>
+        <secion class="enter">
             <p>
                 <button class="button-style" type="submit"> Submit </button>
             </p>
