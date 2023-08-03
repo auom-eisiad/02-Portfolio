@@ -18,6 +18,8 @@ N/A
 
 ## Usage
 
+Demo: https://auom-eisiad.github.io/02-Portfolio/
+
 When the user enters into the website, they will see a navigation bar located on the top of the page. Displayed is; Home, About, Projects, Resume, and Contact. By clicking on any of the buttons, the user will be automactically directed to a part of the webpage that will display the information of that bar. Example can be seen below.
 
     ```md
