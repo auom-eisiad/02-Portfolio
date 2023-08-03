@@ -198,3 +198,21 @@ footer {
     line-height: 750%;
     background-color: var(--c);
 }
+
+@media screen and (max-width: 992px) {
+    main,
+    nav, 
+    .bio ul {
+      flex-direction: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+    main,
+    nav, 
+    .bio ul {
+      flex-direction: column;
+    }
+  }
