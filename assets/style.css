@@ -149,6 +149,10 @@ main {
     justify-content: space-evenly;
 }
 
+.bio ul li {
+    flex: 0 0 300px;
+}
+
 img {
     width: 50%;
     height: 95%;
