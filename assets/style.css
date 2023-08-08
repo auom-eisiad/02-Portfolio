@@ -1,3 +1,4 @@
+/* holds all my color, fonts, and other shortcuts of values used repeatedly */
 :root {
     --fav: #a3dcd4;
     --c: #819679;
@@ -8,10 +9,12 @@
     --ft2: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* global element */
 * {
     box-sizing: border-box;
 }
 
+/* style the body of the browser and whatever is inside the body */
 body {
     color: var(--w);
     background-color: var(--bg);
@@ -22,6 +25,7 @@ body {
     justify-content: flex-start;
 }
 
+/* style the header */
  header {
     padding: 20px;
     text-align: center;
@@ -29,6 +33,7 @@ body {
     color: var(--w);
 }
 
+/* style the heading 1 in the header */
 header h1 {
     border: 0px;
     margin: 0px auto;
@@ -42,10 +47,12 @@ header h1 {
     text-align: left;
 }
 
+/* gives color to my name to show importance in the header */
 header h1 .name {
     color: var(--fav);
 }
 
+/* style the heading 2 in header */
 header h2{
     border: 0px;
     margin: 0 auto;
@@ -59,6 +66,7 @@ header h2{
     text-align: left;
 }
 
+/* place a flower symbol after the heading 2 */
 header h2::after {
     content:"✿";
     display: inline-block;
@@ -66,18 +74,21 @@ header h2::after {
     font-size: 50px;
 }
 
+/* style all heading 3 in the body */
 h3 {
     font-weight: bold;
     font-size: 30px;
     margin-bottom: 40px;
 }
 
+/* style all heading 4 in the body */
 h4 {
     font-weight: bold;
     font-size: 30px;
     margin-bottom: 20px;
 }
 
+/* style the paragraph in the header*/
 header p {
     border: 0px;
     margin: 0px auto;
@@ -90,31 +101,44 @@ header p {
     text-align: left;
 }
 
+/* style the navigation bar */
 nav {
     display: flex;
     background-color: var(--bg);
     border-bottom: 2px solid var(--c);
     font-family: var(--ft2);
 }
-  
+
+/* style the link of the navigation bar */
 nav a {
     color: var(--c);
     padding: 14px 20px;
     text-decoration: none;
     text-align: center;
 }
-  
+
+/* style how the navigation looks when hovered over by a mouse */
 nav a:hover {
     background-color: var(--b);
     color: var(--w);
 }
 
+/* style the main element to affect everything in the main */
 main {
     margin: 70px 50px;
     color: var(--b);
     font-family: var(--ft1);
 }
 
+.pf {
+    text-align: center;
+    margin-left: 463px;
+    margin-bottom: 20px;
+    width: 30%;
+    height: 50%;
+}
+
+/* style the class "bio" */
 .bio {
     margin-left: 200px;
     margin-right: 200px;
@@ -125,6 +149,7 @@ main {
     justify-content: space-evenly;
 }
 
+/* style the unordered list in class "bio" */
 .bio ul {
     list-style: none;
     margin: 80px 80px;
@@ -133,12 +158,15 @@ main {
     justify-content: space-evenly;
 }
 
+/* style the class "box" */
 .box {
     margin: 250px 0px;
     box-sizing: content-box;
     text-align: center;
 }
 
+/* style the unordered list in the class "box" and make sure the images stack
+onto each other when the broswer changes resolution */
 .box ul {
     margin: 0px;
     padding: 0px;
@@ -150,15 +178,19 @@ main {
     justify-content: space-evenly;
 }
 
+/* style the list in the unordered list so when the user views the browser in 
+a different resolution, the list will stack onto each other */
 .bio ul li {
     flex: 0 0 300px;
 }
 
+/* set the images to only resize to the given weight and height */
 img {
     width: 50%;
     height: 95%;
 }
 
+/* style the class "contact-info" */
 .contact-info {
     margin: 100px 0px;
     padding-top: 50px;
@@ -166,6 +198,7 @@ img {
     line-height: 120%;
 }
 
+/* style the unordered list of the class "contact-info" */
 .contact-info ul {
     margin-top: 20px;
     list-style: none;
@@ -175,15 +208,18 @@ img {
     justify-content: space-evenly;
 }
 
+/* style the class "message-me" */
 .message-me {
     line-height: 170%;
     text-align: center;
 }
 
+/* make the class "enter" move the button to the center */
 .enter {
     text-align: center;
 }
 
+/* style the class "button-style" and give the button element some style */
 .button-style {
     padding: 0px 20px;
     border: 0px;
@@ -193,17 +229,21 @@ img {
     background-color: var(--c);
 }
 
+/* style how the button would look once hovered over by a mouse */
 .button-style:hover {
     background-color: var(--b);
     color: var(--w);
 }
 
+/* style the footer */
 footer {
     text-align: center;
     line-height: 750%;
     background-color: var(--c);
 }
 
+/* the media querty to allow the website to still be readable when in different
+resolution and make sure the class "bio" unordered list stack onto each other. */
 @media screen and (max-width: 992px) {
     main,
     nav, 
