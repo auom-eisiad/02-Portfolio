@@ -94,6 +94,7 @@ nav {
     display: flex;
     background-color: var(--bg);
     border-bottom: 2px solid var(--c);
+    font-family: var(--ft2);
 }
   
 nav a {
